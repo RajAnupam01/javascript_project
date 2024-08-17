@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container flex">
+        <div class="top-area flex">
+            <div class="left-area flex">
+                <h1>QR Code Generator</h1>
+                <p>QR Codes allows smartphones users to access your website simply and quickly. <br>
+                Enter any text or URL below to generate a QR Code.</p>
+                <input type="text" id="qrText" placeholder="Enter text or URL">
+                <button id="generate-btn">Generate QR Code</button>
+            </div>
+            <div class="right-area">
+                <img src="https://raw.githubusercontent.com/alok-96/QR-Code-Generator/main/image.avif" alt="">
+            </div>
+        </div>
+        <div class="bottom-area flex hidden">
+            <img src="" alt="" id="qr-image">
+            <button id="download-btn">Scan Me</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
